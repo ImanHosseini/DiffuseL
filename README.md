@@ -1,3 +1,4 @@
+![alt text](https://raw.githubusercontent.com/ImanHosseini/DiffuseL/master/lowbase.jpg)
 # DiffuseL
 I was having fun with diffuse lighting. I wrote an OpenMP accelerated C code, which took an sphere and a light source and traced rays (it's now called ray casting ?) and taking an expotential BDRF it calculated the brightness of the surface and outputted to a .txt file, then with java I wrote a simple class to read the file and output and show the result to a jpg. <br />
 -> Notice that due to some bug, you must check the data file and replace some "nan" entries to "0.0". For some weird reason, there are exactly 8 of these buggy entries.  <br />
